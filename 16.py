@@ -7,4 +7,4 @@ num = int(input("Ingrese un numero para calcular: "))
 r = 0
 for x in range(1, num + 1):
     r += x
-    print("*%d" %r)
+    print("la suma desde 1 hasta el numero ingresado %d es: %d" %(num, r))

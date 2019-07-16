@@ -6,4 +6,4 @@ print(" *** Mostrar la suma de los cuadrados del 1 a 100 *** \n")
 r = 0
 for x in range(1, 101):
     r += x ** 2
-print(r)
+print("la suma de los cuadrados es: %d" %r)

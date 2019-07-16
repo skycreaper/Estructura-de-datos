@@ -22,7 +22,7 @@ def loopWhile():
 def listasbyC():
     print("listas por comprehension")
     r = 0
-    print( [i for i in range(0, 10)] )
+    print( [(i,r+i) for i in range(0, 10)] )
 
 # def tuplasbyC():
 # def conjuntosbyC():

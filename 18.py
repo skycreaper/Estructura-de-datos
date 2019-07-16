@@ -14,5 +14,5 @@ for x in range(1, 101):
     else:
         res += x
         cont += 1
-print("Pares: %d Promedio: %f" %(r, r/c) )    
-print("impares: %d Promedio: %f" %(res, res/cont) )
+print("Suma de los pares es: %d Promedio: %f" %(r, r/c) )    
+print("Suma de los impares es: %d Promedio: %f" %(res, res/cont) )
