@@ -7,7 +7,7 @@ print(" *** imprimir la suma de los primeros 10 enteros usando ciclos for y whil
 def loopFor():
     print("Ciclo For")
     res = 0
-    for x in range(0,10):
+    for x in range(10):
         res += x
         print(res)
 #ciclo while
@@ -21,9 +21,10 @@ def loopWhile():
         i += 1
 def listasbyC():
     print("listas por comprehension")
-    r = 0
-    print( [(i,r+i) for i in range(0, 10)] )
+    print([(i*2,x) for i, x in enumerate(range(10), 1)])
 
+
+        
 # def tuplasbyC():
 # def conjuntosbyC():
 
