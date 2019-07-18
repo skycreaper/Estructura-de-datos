@@ -19,9 +19,13 @@ def loopWhile():
         r += i
         print(r)
         i += 1
+
 def listasbyC():
     print("listas por comprehension")
-    print([(i*2,x) for i, x in enumerate(range(10), 1)])
+    r = 0
+    x = lambda i: r+i
+    print([x(i) for i in range(10)])
+#     print([r for i in range(10)])
 
 
         
