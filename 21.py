@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 @author: Juan Camilo Sarmiento
 version: 3.7.4
