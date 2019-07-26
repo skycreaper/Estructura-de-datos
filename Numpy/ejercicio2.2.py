@@ -8,7 +8,7 @@ version: 3.7.3
 """
 import numpy as np
 print("*****************************************************************************************************************************")
-print("EJERCICIOS SEGUNDO PUNTO")
+print("EJERCICIOS NUMPY SEGUNDO PUNTO")
 #Escriba un programa para crear un arreglo de dimensión 10x4 y extraiga las primeras 3 filas de ese arreglo y guardelas en una variable llamada slice
 matriz = np.empty((10, 4))
 print("matriz 10x4: \n {}".format(matriz) )

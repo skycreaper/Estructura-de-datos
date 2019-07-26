@@ -8,7 +8,7 @@ version: 3.7.3
 """
 import numpy as np
 print("*****************************************************************************************************************************")
-print("EJERCICIOS PRIMER PUNTO")
+print("EJERCICIOS NUMPY PRIMER PUNTO")
 matrizPrueba = np.array([ [34,23,546,788],[12,1099,434,214],[1234,5454,6466,2323],[2332,657,896,53] ])
 print("matriz: \n {}".format(matrizPrueba) )
 #¿Cuál es el índice para el elemento 5454?

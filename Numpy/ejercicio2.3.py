@@ -8,7 +8,7 @@ version: 3.7.3
 """
 import numpy as np
 print("*****************************************************************************************************************************")
-print("EJERCICIOS TERCER PUNTO")
+print("EJERCICIOS NUMPY TERCER PUNTO")
 #haga 2 arreglos unidimensionales con valores aleatorios y determinen si son iguales
 vector1 = np.random.rand(15)
 vector2 = np.random.rand(15)
