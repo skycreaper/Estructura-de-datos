@@ -9,6 +9,7 @@ version: 3.7.3
 import numpy as np
 print("*****************************************************************************************************************************")
 print("EJERCICIOS NUMPY QUINTO PUNTO")
+#realice una multiplicacion de matrices entre una matriz 5x3 y una matriz 3x2
 m5x3 = np.random.rand(5, 3)
 m3x2 = np.random.rand(3, 2)
 print("matriz 5x3: \n {}".format(m5x3) )
